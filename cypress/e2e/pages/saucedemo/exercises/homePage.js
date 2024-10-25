@@ -10,6 +10,10 @@ class HomePage {
         cy.get('#password').type(password)
         cy.get('#login-button').click()
     }
+
+    stamp(){
+        // stamping my passport for this visit!
+    }
 }
 
 export default HomePage
