@@ -50,6 +50,8 @@ describe('Exercises 04', () => {
                 'body': 'Awesome content' 
             }
 
+
+            
         cy.request({
             method: 'POST',
             url: 'https://jsonplaceholder.typicode.com/posts',
